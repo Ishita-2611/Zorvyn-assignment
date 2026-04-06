@@ -82,6 +82,8 @@ src/
 │   ├── auth.js             # JWT verification + role authorization
 │   ├── validators.js       # Input validation rules (express-validator)
 │   └── rateLimiter.js      # In-memory rate limiter
+──public/
+│   ├── finance.html        # frontend ui just for demo
 ├── routes/
 │   ├── auth.js
 │   ├── users.js
