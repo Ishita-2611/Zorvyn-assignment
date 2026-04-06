@@ -1,4 +1,8 @@
 # Finance Data Processing and Access Control Backend
+## 🚀 Overview
+
+This project is a secure and scalable backend system for a finance dashboard.  
+It allows organizations to manage financial records, enforce role-based access control, and generate analytics insights in real time.
 
 A production-quality REST API backend for a finance dashboard system. Built with Node.js and Express, featuring JWT authentication, role-based access control, financial record management, dashboard analytics, and a full audit trail.
 
@@ -20,6 +24,18 @@ A production-quality REST API backend for a finance dashboard system. Built with
 - [Running Tests](#running-tests)
 - [Project Structure](#project-structure)
 - [Seed Data](#seed-data)
+
+---
+
+## 🛠 Tech Stack
+
+- Node.js
+- Express.js
+- JWT (Authentication)
+- bcryptjs (Password hashing)
+- express-validator (Validation)
+- Morgan (Logging)
+- Helmet & CORS (Security)
 
 ---
 
@@ -66,6 +82,8 @@ src/
 │   ├── auth.js             # JWT verification + role authorization
 │   ├── validators.js       # Input validation rules (express-validator)
 │   └── rateLimiter.js      # In-memory rate limiter
+──public/
+│   ├── finance.html        # frontend ui just for demo
 ├── routes/
 │   ├── auth.js
 │   ├── users.js
