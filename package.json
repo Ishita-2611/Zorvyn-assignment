@@ -1,0 +1,30 @@
+{
+  "name": "finance-backend",
+  "version": "1.0.0",
+  
+  "main": "index.js",
+  "description": "Finance Data Processing and Access Control Backend — Zorvyn Assignment",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node tests/run.js"
+  },
+  "keywords": [],
+  "author": {
+  "name": "Ishita Khanduja",
+  "email": "ishitakhanduja26@gmail.com",
+  "url": "https://github.com/Ishita-2611"
+},
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.1",
+    "uuid": "^13.0.0"
+  }
+}
